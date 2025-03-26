@@ -9,11 +9,12 @@ export const StyledGrid = styled.div`
   background-color: rgba(255, 255, 255, 0.2);
   border: 2px solid white;
   gap: 1px;
+  
 `;
 
 export const StyledCards = styled.div`
   display: flex;
-  width:100%;
+  width: 100%;
   height: 100%;
   background-size: contain;
   background-position: center;
@@ -23,9 +24,16 @@ export const StyledCards = styled.div`
   align-items: center;
   background-color: white;
   overflow: hidden;
-  img{
+  img {
     width: 100%;
     height: 100%;
     object-fit: contain; /* Keeps aspect ratio */
   }
 `;
+export const Aligner=styled.div`
+ display: flex;
+  justify-content: space-evenly; /* Space between elements */
+  align-items: center; /* Center align vertically */
+  width: 100vw; /* Ensure full width */
+  height: 100vh; /* Ensure full height */
+`
