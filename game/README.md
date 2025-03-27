@@ -1,12 +1,38 @@
-# React + Vite
+# 🛡️ Demon Slayer Memory Game  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Demon Slayer-themed** memory game built with **React** and **styled-components**. Match all the cards to win—but beware of the **Demon Cards** that bring chaos! 😈🔥  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📜 Features  
+✅ **Memory Card Matching** – Flip and match pairs of cards  
+✅ **Demon Cards** – These won’t match with anything!  
+✅ **Anime-Inspired Design** – Styled with **styled-components**  
+✅ **Smooth Animations** – Aesthetic transitions for a polished look  
+✅ **Responsive Design** – Works across different screen sizes  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎮 How to Play  
+1. Click on a card to reveal it.  
+2. Find its matching pair.  
+3. **Beware! Demon Cards can’t be paired.**  
+4. Match all valid pairs to win.  
+5. **Once finished, click on the grid to restart.**  
+
+Can you escape the demon’s trap? 🔥  
+
+---
+
+## 🛠️ Tech Stack  
+- **React** – Component-based UI  
+- **Styled-Components** – CSS-in-JS for styling  
+- **JavaScript (ES6+)** – Core game logic  
+
+---
+
+## 🚀 Installation & Setup  
+1. **Clone this repository:**  
+   ```sh
+   git clone https://github.com/yourusername/demon-slayer-memory-game.git
+   cd demon-slayer-memory-game
