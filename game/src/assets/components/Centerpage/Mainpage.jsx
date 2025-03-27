@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Aligner, StyledCards, StyledGrid } from "./Grid.Styled";
 import { HashiraImages, PlaceHolder } from "../Constants";
 import { DemonImages } from "../Constants";
-import { StyledText1, StyledScores ,StyledText2} from "../Scores.styled";
+import { StyledText1, StyledScores, StyledText2 } from "../Scores.styled";
 import { StyledFooter } from "./Footer.Styled";
 const Mainpage = () => {
   const CopyHashiraImages = [...HashiraImages];
@@ -97,7 +97,11 @@ const Mainpage = () => {
       <Aligner>
         <StyledScores>
           <StyledText1>
-            Try to make pairs of the cards which are same the demon cards will not make pairs after you make all the pairs click anywhere on the grid to restart
+            💀 Trapped in a cursed scroll! Match all pairs to escape. But
+            beware—two Demon Cards bring only chaos and never pair! Once all
+            pairs are selected, click anywhere on the grid to restart.
+            <br></br>
+            Can you break free? 😈🔥
           </StyledText1>
         </StyledScores>
 

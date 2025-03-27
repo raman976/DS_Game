@@ -8,17 +8,27 @@ justify-content: center;
 align-items: center;
 background-size: contain;
 background-repeat: no-repeat;
-background: white;
-/* background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fimage-vector%2Fpattern-traditional-japanese-motifs-butterflies-love-517224559&psig=AOvVaw0lB9RtQSYH-rinYVWH6mHk&ust=1743108667465000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiOt_7PqIwDFQAAAAAdAAAAABAR');
+background: linear-gradient(
+    to bottom,
+    #f7e1a1, /* Light faded yellow */
+    #e5c37f, /* Slightly deeper parchment tone */
+    #d4a96f  /* Aged paper color */
+  );
+
+  border-radius: 8px; 
+  box-shadow:  
+    4px 4px 10px rgba(0, 0, 0, 0.3), 
+    -4px -4px 10px rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(179, 139, 86, 0.6); 
 ` 
 
 export const StyledText2=styled.h3`
-color: black;
-/* margin-top:40%; */
 font-size: 30px;
+font-family: 'New Rocker', cursive;
+color: black;
 `
 export const StyledText1=styled.p`
 color: black;
-/* margin-top:40%; */
 font-size: 20px;
+font-family: 'New Rocker', cursive;
 `
