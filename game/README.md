@@ -34,5 +34,5 @@ Can you escape the demon’s trap? 🔥
 ## 🚀 Installation & Setup  
 1. **Clone this repository:**  
    ```sh
-   git clone https://github.com/yourusername/demon-slayer-memory-game.git
-   cd demon-slayer-memory-game
+   git clone https://github.com/raman976/DS_Game.git
+   cd DS_Game
